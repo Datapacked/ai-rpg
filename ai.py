@@ -21,7 +21,7 @@ def AI(prompt, context=False):
 			},
 		).json()
 	else:
-		a = requests.post(
+		ret = requests.post(
 			GENERATE_API,
 			json={
 				"model": AI_MODEL,

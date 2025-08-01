@@ -4,6 +4,7 @@
 		"deepseek",
 		"Figlet",
 		"OLLAMA",
+		"pycache",
 		"RPG"
 	]
 }
